@@ -1,0 +1,18 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VehicleRepairReportsGeneratorProject"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls" xmlns:Custom="http://metro.mahapps.com/winfx/xaml/iconpacks" x:Class="VehicleRepairReportsGeneratorProject.MainWindow"
+    xmlns:resx="clr-namespace:VehicleRepairReportsGeneratorProject.Properties"    
+    mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <mah:Tile x:Name="ASDAS" Title="{x:Static resx:Resources.openReport}" HorizontalAlignment="Left" Margin="278,158,0,0" VerticalAlignment="Top" Width="216" Background="#f4a261" Height="124"/>
+        <mah:Tile x:Name="tile1" Title="{x:Static resx:Resources.quickReport}" HorizontalAlignment="Left" Height="115" Margin="278,38,0,0" VerticalAlignment="Top" Width="216" Background="#2a9d8f" />
+        <mah:Tile x:Name="tile2" Title="{x:Static resx:Resources.closeReport}" HorizontalAlignment="Left" Height="122" Margin="278,287,0,0" VerticalAlignment="Top" Width="216" Background="#e76f51"/>
+    </Grid>
+</Window>
